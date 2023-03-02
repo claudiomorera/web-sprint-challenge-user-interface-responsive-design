@@ -107,11 +107,11 @@ h1 {
     margin-bottom: 2%;
 }
 /*navigation bar*/
-.navbar {
+.navbar > nav {
     display:flex;
     justify-content: space-evenly;
 }
-.navbar > a {
+.navbar > nav > a {
     color: #fff;
 }
 footer nav {
@@ -133,12 +133,10 @@ footer nav {
     justify-content: space-around;
     height: 25vh;
     margin-left: 2%;
+    
 }
 .social-media > a {
     color:#fff;
-}
-.social-media p {
-    font-size: 125%;
 }
 
 /* spacer */
@@ -229,7 +227,7 @@ footer {
     header div {
         text-align: center;
     }
-    .navbar {
+    .navbar > nav  {
         margin-top: 15%;
         text-align: center;
         display: flex;
@@ -240,7 +238,7 @@ footer {
         border: 1px rgb(0, 4, 17) solid;
         background-color: rgb(255, 239, 230); 
     }
-    .navbar > a {
+    .navbar > nav > a {
         color: rgb(0, 4, 17);
     }
     .navbar > a:active {
