@@ -177,7 +177,10 @@ footer nav {
     max-width: 100%;
     font-size: 50%;
     background-color: rgba(0, 4, 17, 0.8);
+    margin-left:2%;
+    margin-right:2%;
 }
+
 h2 {
     text-align: center;
 }
