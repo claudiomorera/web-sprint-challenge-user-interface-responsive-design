@@ -167,8 +167,7 @@ footer nav {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/*Fix food Menu is Oversizing the Width */
+/*Food Menu*/
 .menu-container {
     display: flex;
     flex-direction: column;
@@ -178,7 +177,6 @@ footer nav {
     max-width: 100%;
     font-size: 50%;
     background-color: rgba(0, 4, 17, 0.8);
-
 }
 h2 {
     text-align: center;

@@ -78,7 +78,7 @@ Review the provided design file for the home page.
 Colors and fonts:
 Light text: rgb(225, 239, 230);
 Dark background: rgb(0, 4, 17);
-Dark transparency: background-color: rgb(0, 4, 17, .8);
+Dark transparency: background-color: rgba(0, 4, 17, .8);
 ​
 ​
 ### Menu Page
