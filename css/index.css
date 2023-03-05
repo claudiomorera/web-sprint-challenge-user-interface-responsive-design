@@ -107,13 +107,14 @@ body {
     background-color: rgb(0, 4, 17);
 }
 /*navagation bar*/
-.navbar > nav {
+.menu-bar {
     display:flex;
     justify-content: space-evenly;
-    align-items: start;
-    height: 25vh;
+    align-items: center;
+    height: 10vh;
+    flex-wrap: wrap;
 }
-.navbar > nav > a {
+.menu-bar > a {
     color: #fff;
 }
 
@@ -129,10 +130,9 @@ footer nav {
 
 .social-media {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
-    align-items: end;
-    height: 25vh;
+    justify-content: center;
     
 }
 .social-media > a {
@@ -285,7 +285,7 @@ footer {
     header div {
         text-align: center;
     }
-    .navbar > nav {
+    .menu-bar {
         margin-top: 15%;
         text-align: center;
         display: flex;
@@ -296,7 +296,7 @@ footer {
         border: 1px rgb(0, 4, 17) solid;
         background-color: rgb(255, 239, 230); 
     }
-    .navbar > nav > a {
+    .menu-bar > a {
         color: rgb(0, 4, 17);
     }
     .navbar > a:active {
